@@ -1,5 +1,5 @@
 wget -O ehcp.tgz www.ehcp.net/ehcp_latest.tgz
-tar -zxvf ehcp.tgz
+tar -xzvf ehcp.tgz
 cd ehcp
 echo "CONFIG EHCP MANUAL"
 sleep 5
