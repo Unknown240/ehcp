@@ -1,0 +1,9 @@
+wget -O ehcp.tgz www.ehcp.net/ehcp_latest.tgz
+tar -zxvf ehcp.tgz
+cd ehcp
+echo "CONFIG EHCP MANUAL"
+sleep 5
+bash install.sh
+sleep 4
+echo "open EHCP di browser"
+echo "masukkan Ip server"
