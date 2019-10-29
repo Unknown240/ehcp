@@ -1,4 +1,3 @@
-wget http://www.ehcp.net/download
 tar -zxvf ehcp_latest.tgz
 cd ehcp
 ./install.sh
