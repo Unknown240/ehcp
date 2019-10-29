@@ -1,6 +1,6 @@
-wget -O ehcp.tgz www.ehcp.net/ehcp_latest.tgz
-tar -xzvf ehcp.tgz
-cd ehcp
+wget -O www.ehcp.net/ehcp_latest.tgz
+tar -xzvf ehcp_latest.tgz
+cd ehcp_latest
 echo "CONFIG EHCP MANUAL"
 sleep 5
 bash install.sh
