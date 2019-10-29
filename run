@@ -6,5 +6,10 @@ tar -zxvf ehcp_latest.tgz
 cd ehcp
 ./install.sh
 sleep 5
+cd /etc/apache2/sites-available
+pico 000-default.conf
+a2ensite 000-default.conf
+/etc/init.d/apache2 reload
+/etc/init.d/apache2 restart
 echo "open EHCP di browser"
 echo "masukkan Ip server"
