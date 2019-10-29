@@ -1,4 +1,4 @@
-wget -O www.ehcp.net/ehcp_latest.tgz
+wget www.ehcp.net/ehcp_latest.tgz
 tar -xzvf ehcp_latest.tgz
 cd ehcp_latest
 echo "CONFIG EHCP MANUAL"
