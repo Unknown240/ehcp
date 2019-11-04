@@ -7,9 +7,15 @@ cd ehcp
 ./install.sh
 sleep 5
 cd /etc/apache2/sites-available
+GANTI DOC.ROOT jadi /var/www/new
+sleep 8
 pico 000-default.conf
 a2ensite 000-default.conf
 /etc/init.d/apache2 reload
 /etc/init.d/apache2 restart
+echo "Virtual-DEVICES jadikan HOSTONLY"
+echo "Jadikan ControlPanel VirtualBox jadi Static"
 echo "open EHCP di browser"
 echo "masukkan Ip server/ehcp"
+
+echo " SELESAI "
